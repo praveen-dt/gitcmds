@@ -43,3 +43,5 @@ comes handy but not that useful in personal projects
  >> git remote -v
  >> git remote add origin <link to remote url> //adding remote github
  >> git push origin main //push this repo to origin(set lin) -> main branch
+
+ >> git push -u origin main // setting upstream by -u so that when git push it directly goes to main branch
