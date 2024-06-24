@@ -20,4 +20,6 @@ Branch
 
 Merging Branches
 >> git merge <branchname>  // if you want to merge BranchB in BranchA, switch to BranchA
->> 
+                           // also if there is a conflict in the file, choose the code that is correct and merge
+>> git branch -m <OldBranchName> <NewBranchName> // change branch name
+>> git branch -d <BranchName> // Delete branch
