@@ -14,15 +14,18 @@ github cmds
 
 
 Branch
+>> git branch -M <branchname> //change branch name of current branch 
 >> git branch //see the branch we ae working on
 >> git branch <branchname>  //creates new branch
 >> git switch <branchname>  //switch to new branch
+
 
 Merging Branches
 >> git merge <branchname>  // if you want to merge BranchB in BranchA, switch to BranchA
                            // also if there is a conflict in the file, choose the code that is correct and merge
 >> git branch -m <OldBranchName> <NewBranchName> // change branch name
 >> git branch -d <BranchName> // Delete branch
+
 
 diff,stash,tags
 >> git diff <branch1> <branch2>  // dfference can be checked between two commits using hash or Uid as well
@@ -31,3 +34,12 @@ diff,stash,tags
 >> git tag -a <tagname> -m "version 1" //create tag name with message
 comes handy but not that useful in personal projects
 
+
+ Rebase and reflog
+ >> not important for me atleast
+
+
+ github
+ >> git remote -v
+ >> git remote add origin <link to remote url> //adding remote github
+ >> git push origin main //push this repo to origin(set lin) -> main branch
