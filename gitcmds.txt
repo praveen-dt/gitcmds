@@ -10,5 +10,14 @@ github cmds
 >> git init
 >> git add <file name> or . for all file
 >> git commit -m "fist commit"
->> git log
+>> git log / git log --oneline
+
+
+Branch
+>> git branch //see the branch we ae working on
+>> git branch <branchname>  //creates new branch
+>> git switch <branchname>  //switch to new branch
+
+Merging Branches
+>> git merge <branchname>  // if you want to merge BranchB in BranchA, switch to BranchA
 >> 
