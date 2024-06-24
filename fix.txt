@@ -1,1 +1,1 @@
-fixed xyz
+fixed xyz and added some other fixes
