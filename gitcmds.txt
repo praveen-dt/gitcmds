@@ -23,3 +23,11 @@ Merging Branches
                            // also if there is a conflict in the file, choose the code that is correct and merge
 >> git branch -m <OldBranchName> <NewBranchName> // change branch name
 >> git branch -d <BranchName> // Delete branch
+
+diff,stash,tags
+>> git diff <branch1> <branch2>  // dfference can be checked between two commits using hash or Uid as well
+>> git stash <> //you can say its a temporary location or memory to store branch or something
+>> git tag <tagname>  // like a sticky note
+>> git tag -a <tagname> -m "version 1" //create tag name with message
+comes handy but not that useful in personal projects
+
